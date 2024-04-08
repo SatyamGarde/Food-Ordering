@@ -543,8 +543,12 @@ textarea {
 
 .cart-btn button {
   padding: 18px;
+  background-color: white;
   margin-left: 10px;
-  font-size: large;
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  border: 2px solid red;
   border-radius: 20px;
   width: 180px;
 }
@@ -557,12 +561,85 @@ textarea {
 }
 
 .cart-btn :hover {
-  background-color: #9b9999;
+  background-color: rgb(255, 29, 29);
+  color: white;
   cursor: pointer;
 }
 
-.cart-store h2{
+.cart-store h2 {
   display: flex;
   justify-content: center;
-  color:#505254cb;
+  color: #505254cb;
+}
+
+.image {
+  flex: 1 1 40rem;
+  width: 100%;
+}
+
+.image img {
+  width: 50%;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(4rem);
+  }
+}
+
+
+.homepage {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  flex: 1;
+  padding: 20px; 
+  font-size: 30px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.image {
+  height: 870px;
+  flex: 2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.7); 
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+
+  position: relative; /* Position the image absolutely */
+
+  z-index: -1; /* Send the image to the back of the stacking order */
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage {
+    flex-direction: column;
+  }
+}
+
+.explore-btn{
+  height: 50px;
+  margin-left: 5px;
+  padding: 10px;
+  width: 120px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #f0f0f0;
 }

@@ -1,8 +1,10 @@
 import RestaurantCard from "./RestaurantCard";
 import resList from "../Utils/mockData";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import HomePage from "./HomePage";
+
 
 const Body = () => {
   const [ListOfRestaurants, setListOfRestaurants] = useState([]);
@@ -43,7 +45,8 @@ const Body = () => {
 
   return (
     <div className="body">
-      <div className="search-container">
+      <HomePage/>
+      <div className="search-container ">
         <input
           className="inp"
           type="text"

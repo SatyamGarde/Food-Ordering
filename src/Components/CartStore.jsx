@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import Recommanded from "./Recommanded";
 import { useDispatch } from "react-redux";
 import { clearCart } from "./cartSlice";
+import { LOGO_URL } from "../Utils/constants";
 const CartStore = () => {
   const cartItems = useSelector((store) => store.cart.items);
 
@@ -35,8 +36,8 @@ const CartStore = () => {
 
       <div className="cart-btn">
         <button onClick={handleClearCart}>Clear Cart</button>
-        <button>Order</button>
-      </div>
+        <button>Order Now</button>
+      </div> 
     </div>
   );
 };

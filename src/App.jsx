@@ -61,6 +61,7 @@ const appRouter = createBrowserRouter([
         path: "/cart",
         element: <CartStore />,
       },
+     
       
     ],
     errorElement: <Error />,

@@ -1,9 +1,7 @@
 import React from "react";
 import { LOGO_URL } from "../Utils/constants";
 
-
 const currYear = new Date().getFullYear();
-
 
 const Footer = () => {
   return (
@@ -17,7 +15,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-column">
-          <h3>Company</h3>
+          <h3 className=" text-3xl text-green-600">Company</h3>
           <ul>
             <li>About</li>
             <li>Careers</li>
@@ -50,7 +48,6 @@ const Footer = () => {
             <li>Delhi</li>
             <li>Mumbai</li>
             <li>Pune</li>
-
           </ul>
         </div>
       </div>
