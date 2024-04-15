@@ -8,12 +8,12 @@ const HomePage = () => {
     const targetHeight = 850; // Adjust this value to the desired height
     window.scrollTo({ top: targetHeight, behavior: 'smooth' });
   };
-
+  const desiredWidth = "calc(159vh)";
   return (
-    <div className='homepage' ref={homepageRef}>
+    <div className='homepage' style={{width: desiredWidth }} ref={homepageRef}>
       <div className='text'>
         <div className='content'>
-          <h1>Food Made With Love</h1>
+          <h1>Cuisine Crafted with Loving Hands</h1>
           <p>
             Step into a World of Delicious Delights, Crafted with Care and Love.
             From Our Kitchen to Your Table, Every Dish is a Culinary Masterpiece.

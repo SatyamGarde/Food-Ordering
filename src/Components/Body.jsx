@@ -42,11 +42,11 @@ const Body = () => {
     return <Shimmer />;
     // return <h1>Loading....</h1>
   }
-
+  const desiredWidth = "calc(180.4vh)";
   return (
     <div className="body">
       <HomePage/>
-      <div className="search-container ">
+      <div className="search-container " style={{width: desiredWidth }}>
         <input
           className="inp"
           type="text"

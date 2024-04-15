@@ -575,6 +575,7 @@ textarea {
 .image {
   flex: 1 1 40rem;
   width: 100%;
+  
 }
 
 .image img {
@@ -617,8 +618,9 @@ textarea {
   height: 870px;
   flex: 2; 
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  margin-right: 83px;
   transform: scale(1.7); 
   background-color: transparent;
   transition: transform 0.3s ease-in-out;
