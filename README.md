@@ -5,6 +5,7 @@ This is a web application for browsing restaurants, viewing their menus, and man
 ## Table of Contents
 
 - [Features](#features)
+-  [Demo](#demo)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -21,6 +22,9 @@ This is a web application for browsing restaurants, viewing their menus, and man
 - View and manage the cart
 - Navigate between different pages (Home, About, Contact, etc.)
 
+## Demo
+
+You can access a live demo of the app [here](https://bitezy.netlify.app).
 ## Getting Started
 
 ### Prerequisites
